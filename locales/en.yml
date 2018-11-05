@@ -464,7 +464,6 @@ en:
     form_builder_attachments:
       destroy:
         successfully_deleted: Attachment has been successfully deleted.
-        successfully_updated: 
   are_you_sure: Are you sure you want to delete?
   assessments:
     add_task_form:
@@ -1299,6 +1298,7 @@ en:
       local_given_name: Given Name
       name_of_referee: Name of Referee
       other_detail: Other Details
+      profile: Photo
       province:
         cambodia: Birth Province
         lesotho: Birth Suburb
@@ -1308,6 +1308,7 @@ en:
       referral_information: Referral Information
       referral_received_by: Referral Received By
       referral_source: Referral Source
+      remove_profile: Remove Photo
       specific_point: Specific Point-of-Referral Data
       staff_responsibilities: Staff Responsibilities
       text-hint: Unable to remove this case worker because he/she has some remaining tasks to complete.
@@ -1502,7 +1503,11 @@ en:
       primary_carer_phone_number: Primary Carer Phone Number
       program_streams: Enroll Client to Program Streams
       progress_note: Progress Note
-      province: Birth Province
+      province:
+        cambodia: Birth Province
+        lesotho: Birth Suburb
+        myanmar: Birth State
+        thailand: Birth Province
       received_by: Referral Received By
       refer_client: Refer Client
       referee_phone_number: Referee Phone Number
@@ -1526,8 +1531,17 @@ en:
       telephone_number: Primary Carer Phone Number
       time_in_care: Time In Care
       time_in_care_around:
+        month:
+          one: "%{count} month"
+          other: "%{count} months"
         one: Around %{count} year
         other: Around %{count} years
+        week:
+          one: "%{count} week"
+          other: "%{count} weeks"
+        year:
+          one: "%{count} year"
+          other: "%{count} years"
       view_assessments: Assessments
       view_case_notes: Case Notes
       view_ec_history_btn_link: EC History
@@ -2531,6 +2545,7 @@ en:
       description: Description
       domain_group: Domain Group
       identity: Identity
+      interpretation: Interpretation
       name: Name
       save: Save
       score_1: Score 1
